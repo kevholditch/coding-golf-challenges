@@ -19,7 +19,7 @@ Would be given from top to bottom left to right in a single array as `"x", "o", 
 The function signature should be:
 
 ```
-func C(b []rune) string
+func CalculateWinner(b []rune) string
 ```
 
 You should return:
@@ -27,4 +27,4 @@ You should return:
     - `o` if the player with o won
     - `-` if it was a draw
 
-The func is already defined, the challenge is to make all of tests pass with the fewest characters possible.  We will use the https://charactercounttool.com/ to count the number of characters excluding spaces in your answer file.
+The func is already defined, the challenge is to make all of tests pass with the fewest characters possible for the implmentation.  That is we will take the characters between the curly braces of the implementation.  We will use the https://charactercounttool.com/ to count the number of characters excluding spaces in your answer file.
